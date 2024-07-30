@@ -1,4 +1,27 @@
 {
   "__resolveType": "site/sections/Header.tsx",
-  "navigation": { "links": [], "buttons": [] }
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Todos os posts",
+        "url": "/"
+      },
+      {
+        "label": "Quem somos",
+        "url": "/quem-somos"
+      }
+    ],
+    "buttons": [
+      {
+        "href": "https://www.centermedical.com.br/",
+        "text": "Visite nossa loja",
+        "outline": false,
+        "id": "Visite nossa loja"
+      }
+    ]
+  }
 }
