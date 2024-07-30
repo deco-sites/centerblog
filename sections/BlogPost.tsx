@@ -155,7 +155,7 @@ export default function BlogPost({ page }: Props) {
       >
       </div>
       <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-        <div class="space-y-4">
+        {/* <div class="space-y-4">
           <p class="text-lg font-bold">Share this post</p>
           <div class="flex flex-col gap-8 md:flex-row justify-between">
             <SocialIcons />
@@ -171,7 +171,7 @@ export default function BlogPost({ page }: Props) {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* divider zinc-300 */}
         <div class="w-full h-px bg-zinc-300"></div>
         <div className="flex items-center gap-4">

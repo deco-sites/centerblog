@@ -98,9 +98,9 @@ export default function BlogPosts({
                 <div class="font-semibold">
                   {calculateReadingTime(post.content.split(" ").length)}
                 </div>
-                <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
+                <div class="space-y-2 h-[144px]">
+                  <h3 class="text-2xl line-clamp-2">{post.title}</h3>
+                  <p class="text-base line-clamp-3">{post.excerpt}</p>
                 </div>
                 <div class="flex flex-wrap gap-2">
                   {post.categories?.map((category) => (
@@ -109,11 +109,11 @@ export default function BlogPosts({
                     </div>
                   ))}
                 </div>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2 text-xs">
                   <span>
                     {post.date
-                      ? new Date(post.date).toLocaleDateString("en-US", {
-                        month: "long",
+                      ? new Date(post.date).toLocaleDateString("pt-BR", {
+                        month: "short",
                         day: "numeric",
                         year: "numeric",
                       })
