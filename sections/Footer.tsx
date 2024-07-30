@@ -134,11 +134,11 @@ export default function Footer({
               ))}
             </div>
             <div class="lg:w-[40%]">
-              <h4 class="font-semibold mb-4 text-white">{subscribe?.title}</h4>
+              {/* <h4 class="font-semibold mb-4 text-white">{subscribe?.title}</h4>
               <form class="flex flex-col gap-4">
                 <p class="font-normal text-white">{subscribe.description}</p>
                 <div class="flex gap-4">
-                  {/* <Form /> */}
+                  <Form />
                 </div>
                 {subscribe.instructions && (
                   <p
@@ -147,7 +147,7 @@ export default function Footer({
                   >
                   </p>
                 )}
-              </form>
+              </form> */}
             </div>
           </div>
           <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
